@@ -1,0 +1,21 @@
+{
+    "name": "taptipblard/Nova",
+    "description": "TaptipBlard's Nova libraries",
+    "license": "MIT",
+    "keywords": ["taptipblard","nova"],
+    "authors": [
+        {
+            "name": "taptipblard",
+            "email": "francisabelard@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaptipBlard\\Nova\\": "src"
+        }
+    }
+}
